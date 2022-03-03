@@ -1,0 +1,34 @@
+﻿<Window x:Class="wpf_memory.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_memory"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="MemoGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button x:Name="m1" Height="100" Width="100" Grid.Column="0" Grid.Row="0" Click="btn_Click" />
+        <Button x:Name="m2" Height="100" Width="100" Grid.Column="1" Grid.Row="0" Click="btn_Click" />
+        <Button x:Name="m3" Height="100" Width="100" Grid.Column="2" Grid.Row="0" Click="btn_Click" />
+        <Button x:Name="m4" Height="100" Width="100" Grid.Column="3" Grid.Row="0" Click="btn_Click" />
+        <Button x:Name="m5" Height="100" Width="100" Grid.Column="0" Grid.Row="1" Click="btn_Click" />
+        <Button x:Name="m6" Height="100" Width="100" Grid.Column="1" Grid.Row="1" Click="btn_Click" />
+        <Button x:Name="m7" Height="100" Width="100" Grid.Column="2" Grid.Row="1" Click="btn_Click" />
+        <Button x:Name="m8" Height="100" Width="100" Grid.Column="3" Grid.Row="1" Click="btn_Click" />
+        <Button x:Name="m9" Height="100" Width="100" Grid.Column="0" Grid.Row="2" Click="btn_Click" />
+        <Button x:Name="m10" Height="100" Width="100" Grid.Column="1" Grid.Row="2" Click="btn_Click" />
+        <Button x:Name="m11" Height="100" Width="100" Grid.Column="2" Grid.Row="2" Click="btn_Click" />
+        <Button x:Name="m12" Height="100" Width="100" Grid.Column="3" Grid.Row="2" Click="btn_Click" />
+    </Grid>
+</Window>

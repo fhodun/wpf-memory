@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-memory", "wpf-memory\wpf-memory.csproj", "{CEF61C05-FD9B-4737-9282-3CFF17A6C33E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEF61C05-FD9B-4737-9282-3CFF17A6C33E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEF61C05-FD9B-4737-9282-3CFF17A6C33E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEF61C05-FD9B-4737-9282-3CFF17A6C33E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEF61C05-FD9B-4737-9282-3CFF17A6C33E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6347B5E9-A794-4F98-A570-9AFF164440A9}
+	EndGlobalSection
+EndGlobal
